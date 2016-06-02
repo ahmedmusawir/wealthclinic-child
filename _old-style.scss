@@ -1,0 +1,314 @@
+/*
+Theme Name: Wealth Clinic Child
+Author: Gary Rennilson
+Author URI: http://rennilson.com/
+Version: 1.0.0
+Template: dt-the7
+*/
+@media screen and (min-width: 900px) {
+	#header.line-mobile.full-width-line .navigation-holder {
+		border-top:none;
+		position:absolute;
+		top:0;
+	}
+}
+
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.book-signup {
+		width:170%!important;
+		margin-left:60%!important;
+	}
+}
+
+@media screen and (min-width: 360px) {
+		
+	#book-title h2 {
+		font-size:30px;
+	}
+	
+	#book-text {
+		font-size:20px!important;
+	}
+	
+	.book-signup {
+		margin:5% auto!important;
+		background:url(http://wealthclinic.com/wp-content/uploads/2015/06/5-Simple-Steps-To-Creating-Mindful-Wealth-Cover.png) no-repeat right 25%!important;
+	}
+  
+}
+
+@media (max-width: 800px){
+	.optinDisclaimer {
+		padding: 0px !important;
+		background-color: transparent !important;
+	}
+	.optinDisclaimer p {
+		background-color: transparent !important;
+		color: #fff !important;
+	}
+/*
+ .banner-optin {
+    max-width: 380px;
+    color: #fff;
+    text-shadow: 0 0 6px #8A6D01;
+    }
+  .banner-optin h2 {
+    color: #fff;
+    text-shadow: 0 0 6px #8A6D01;
+    font-size 38px;
+    }
+*/
+}
+
+h1,h2,h3,h4 {
+	color:#625755;
+}
+
+p {
+	padding-bottom:15px;
+}
+
+hr {
+	height:1px;
+	background-color:#8d7824;
+	color:#8d7824;
+	border:none;
+	margin:20px 0;
+}
+
+#main {
+	padding:0;
+}
+
+#top-bar.text-big {
+	line-height:36px;
+}
+
+#phantom #main-nav.underline-hover.gradient-decor > li > a i.underline,#phantom #main-nav.gradient-decor > li.menu-frame-on.act > a,#phantom #main-nav.menu-material-style > li.act > a,.logo-side #main-nav.menu-material-style > li.act > a:before,#phantom #main-nav.gradient-decor > li.menu-frame-on.act:hover > a,.logo-side #main-nav > li.has-children.level-arrows-on.menu-frame-on.act > a,.logo-side.sub-downwards #main-nav > li.has-children.level-arrows-on.menu-frame-on.act > a,#phantom #main-nav.gradient-decor.brackets > li > a span:before,#phantom #main-nav.gradient-decor.brackets > li.act > a span:before,#phantom #main-nav.gradient-decor > li > a span:before,#phantom #main-nav.gradient-decor > li.act > a span:before,#phantom #main-nav.menu-material-underline-style.gradient-decor > li > a:before {
+	display:none;
+}
+
+#phantom #main-nav>li>a>span {
+	color:#8dc63f;
+}
+
+#phantom #main-nav > li > a:hover {
+	color:#efa31f;
+}
+
+#phantom #main-nav>li>a>span:hover,#phantom #main-nav>li.act>a {
+	color:#efa31f;
+}
+
+.wsite-button-normal {
+	background:transparent!important;
+	background-image:none!important;
+	border:0 solid transparent;
+	padding:0;
+}
+
+.wsite-button,.wsite-editor .wsite-button {
+	display:inline-block;
+	padding:0 15px 0 0;
+	background:url(../images/common/buttons/small_grey.png?1426544801) no-repeat 100% -100px;
+	text-decoration:none!important;
+	font-weight:400!important;
+	font-size:14px!important;
+	color:#222!important;
+	cursor:pointer;
+}
+
+.org-btn {
+	line-height:130%;
+	min-width:250px;
+	padding:10px 5px;
+	background-color:#efa31f;
+}
+
+#likeboxwrap {
+	border-radius:5px;
+	margin-top:53px;
+}
+
+.timeline-block .timeline-header {
+	padding:5px 15px 0!important;
+}
+
+.timeline-block .timeline-header-block .timeline-header p,.timeline-feature-item .timeline-header-block .timeline-header p {
+	font-size:14px;
+}
+
+.left-side-events {
+	border-width:0 1px;
+	border-color:#efa31f;
+	border-style:solid;
+	background-color:#f7f1dd;
+}
+
+.right-side-press {
+	padding-left:40px;
+}
+
+.right-side-press hr {
+	margin:15px 0;
+}
+
+.signup-form {
+	background-color:#fffdf0;
+	padding:10px;
+	border-color:#efa31f;
+	border-width:0 1px 1px;
+	border-style:solid;
+}
+
+.signup-form .wpb_text_column.wpb_content_element.vc_custom_1428363961604 {
+	margin:0!important;
+}
+
+.meditation p {
+	margin:20px 0 0;
+	padding:0;
+	text-align:center;
+}
+
+.optin-widget {
+	float:right;
+}
+
+.optin-widget .soc-ico {
+	margin:10px 0 0 100px;
+}
+
+#signupform {
+	margin:0 auto;
+	width:300px;
+	border:1px solid #000;
+	border-radius:5px;
+	padding:5px;
+	background-color:#f7f1dd;
+}
+
+#signupform label {
+	color:#717171;
+}
+
+.page-inner {
+	margin:0 auto!important;
+}
+
+#footer {
+	position:relative!important;
+}
+
+.book-signup {
+	width:95%;
+	background:url(http://wealthclinic.com/wp-content/uploads/2015/06/5-Simple-Steps-To-Creating-Mindful-Wealth-Cover.png) no-repeat 80% 25%;
+	margin:20% auto;
+}
+
+#book-text {
+	width:60%;
+	float:left;
+	margin-bottom:10%;
+}
+
+#book-text {
+	font-size:x-large;
+}
+
+//@media (min-width: 750px) {
+// 	.vc_col-sm-4 {
+// 		width:100%;
+// 	}
+// }
+
+#retreat-content {
+	position:relative;
+	border:4px solid #f0cb23;
+	background-color:#fff;
+	padding:15px;
+	margin-left:25px;
+}
+
+#retreat-content p {
+	text-align:center;
+	color:#4f7b3e;
+	font-size:20px;
+	padding-bottom:0;
+}
+
+.retreat-date {
+	position:absolute;
+	top:-10px;
+	left:-15px;
+	background-color:#fff;
+	width:55%;
+}
+
+.retreat-date p {
+	text-align:center !important;
+	font-size:24px !important;
+	padding:5px 10px;
+	border:4px solid #7ac56a;
+}
+
+.retreat-logo {
+	float:right;
+	width:45%;
+}
+
+.retreat-logo p {
+	text-align:right !important;
+	margin:0;
+	padding:0;
+}
+
+.retreat-bullets {
+	position:absolute;
+	width:57%;
+	left:-15px;
+	background-color:#fff;
+	padding:5px 10px;
+	border:4px solid #7ac56a;
+}
+
+.retreat-bullets p {
+	text-align:left!important;
+	color:#333!important;
+	font-size:18px!important;
+}
+
+.retreat-bullets ul li {
+	font-size:18px;
+	color:#eea41f;
+	margin-bottom: 7px;
+}
+
+.retreat-leisa {
+	float:right;
+	width:37%;
+	padding:0 10px;
+	
+}
+
+.retreat-leisa p {
+	text-align:center;
+	margin:0;
+	padding:5px;
+	border:2px solid #7ac56a;
+	background-color: white;
+	
+}
+
+.retreat-leisa h2 {
+	background-color:#7ac56a;
+	font-weight:lighter;
+	text-align:center;
+	font-size:21px;
+	width:80%;
+	margin:0 auto;
+}	
+.retreat-leisa img {
+	border: 4px solid rgb(122, 197, 106);
+  box-shadow: 0 0 8px black;
+}
